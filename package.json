@@ -1,0 +1,20 @@
+{
+    "name": "json-api-response"
+    , "description": "API responses in JSON format"
+    , "version": "0.0.1"
+    , "author": "Paulo McNally <paulomcnally@gmail.com>"
+    , "keywords": ["json", "api", "response", "format"]
+    , "dependencies": {
+    "request": "2.21.0"
+}
+    , "directories": { "lib": "./lib/json-api-response" }
+    , "main": "./index.js"
+    , "bugs": {
+    "url":"https://github.com/paulomcnally/json-api-response/issues/new"
+    , "email": "paulomcnally@gmail.com"
+}
+    , "repository": {
+    "type": "git"
+    , "url": "git://github.com/paulomcnally/json-api-response.git"
+}
+}
