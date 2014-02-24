@@ -35,7 +35,7 @@ API responses in JSON format | NodeJS Module
     
     {
       "error": {
-        "message": "This is a error",
+        "message": "This is an error",
         "type": "ExampleException",
         "code": 1
       }
@@ -47,7 +47,7 @@ API responses in JSON format | NodeJS Module
 
 ## Error example:
 
-    var error = jar.error(1,'ExampleException','This is a error');
+    var error = jar.error(1,'ExampleException','This is an error');
     console.log( error );
 
 ## Result:
