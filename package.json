@@ -1,7 +1,7 @@
 {
   "name": "json-api-response",
   "description": "API responses in JSON format",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Paulo McNally <paulomcnally@gmail.com>",
   "keywords": [
     "json",
