@@ -14,7 +14,7 @@ API responses in JSON format | NodeJS Module
     app.use( jar.express );
     
     app.get('/error',function(req,res){
-       res.jarError(1,'ExampleException','This is a error');
+       res.jarError(1,'ExampleException','This is an error');
     });
     
     app.get('/response',function(req,res){
@@ -41,6 +41,12 @@ API responses in JSON format | NodeJS Module
       }
     }
 
+## Status Code Example (only on express)
+See [http://expressjs.com/api.html#res.status](http://expressjs.com/api.html#res.status)
+    
+    res.jarResponse( { "foot": "bar" }, 201 );
+    res.jarError( 1, 'exception', 'message', 404 );
+
 ## Include:
 
     var jar = require('json-api-response');
@@ -54,7 +60,7 @@ API responses in JSON format | NodeJS Module
 
     {
       "error": {
-        "message": "This is a error",
+        "message": "This is an error",
         "type": "ExampleException",
         "code": 1
       }

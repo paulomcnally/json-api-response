@@ -25,11 +25,11 @@ var app = express();
 app.use( jar.express );
 
 app.get('/error',function(req,res){
-   res.jarError(1,'ExampleException','This is a error');
+   res.jarError(1,'ExampleException','This is a error',404);
 });
 
 app.get('/response',function(req,res){
-   res.jarResponse({"foo":"bar"});
+   res.jarResponse({"foo":"bar"},201);
 });
 
 app.listen(8080);
